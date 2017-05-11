@@ -1,29 +1,113 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>kevinrfarmer.com</title>
-    <style>
-    body {
-      background-color: grey;
-    }
-    h1 {
-      color: white;
-      size: 30px;
-    }
-    p {
-      color: yellow;
-      size: 10px;
-    }
-    </style>
+    <title>Kevin Farmer</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="style.css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
   <body>
-    <h1>A webpage</h1>
-    <p> This is a (very) basic to highlight my setup of Github pages with my domain </p>
-    <p> I use an internal style sheet to change my text with CSS. </p>
-    <p> This website is pretty boring so far though, so let's add some gifs: </p>
-    <img src="cat-hacker.gif">
-    <img src="dog-dancing.gif">
-    <img src="hacked.gif">
+
+    <!-- Customize a sweet Materialize Navbar -->
+      <nav>
+        <div class="nav-wrapper light-blue">
+          <a href="#" class="brand-logo left">Kevin Farmer</a>
+          <ul class="right">
+            <li><a href="#">Work Experience</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">About Me</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- parallax code from: http://materializecss.com/parallax.html -->
+    <div class="parallax-container">
+      <!-- Image credit http://communications.dartmouth.edu/media/photos-media/campus-photos -->
+      <div class='parallax'><img src='img/dartmouth-library.jpg'></div>
+    </div>
+
+    <div class='section-white'>
+      <br />
+      <h1 class="header center orange-text">Hi CS52!</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Let's spruce up this landing page in 30 minutes.</h5>
+      </div>
+      <br /><br />
+
+      <div class="container">
+        <div class="section">
+          <div class="row">
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h5 class="center">Change the headings.</h5>
+                <p class="light">Just follow the tutorial! It won't take too long, and you'll get a new logo.</p>
+                <a class="btn waves-effect waves-light">Button 1</a>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h5 class="center">Add some effects.</h5>
+                <p class="light">Make some buttons look cool! And by that I mean Button 1, Button 2, and Button 3.</p>
+                <a class="btn-floating waves-effect waves-light cyan"><i class="material-icons">add</i></a>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h5 class="center">Add a modal.</h5>
+                <p class="light">Materialize makes it easy to do so, don't worry.</p>
+                <a href="#getStartedModal" class="btn btn-floating pulse"><i class="material-icons">cloud</i></a>
+                <!-- get example info from: http://materializecss.com/modals.html -->
+                <!-- code adapted from: http://materializecss.com/modals.html -->
+                <div id='getStartedModal' class='modal'>
+                  <div class='modal-content'>
+                    <h4>Get Started with Materialize!</h4>
+                    <p>Learn how to use Materialize.</p>
+                  </div>
+                  <div class='modal-footer'>
+                    <a href="#!" class='modal-action modal-close btn-flat cyan'>I'm ready!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- parallax code from: http://materializecss.com/parallax.html -->
+    <div class="parallax-container">
+      <div class='parallax'><img src='img/p2.jpg'></div>
+    </div>
+
+    <footer class="page-footer orange">
+      <div class="footer-copyright">
+        <div class="container">
+        Made with <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src='js/init.js'></script>
   </body>
 </html>
