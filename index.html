@@ -5,13 +5,13 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="style.css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
   <body>
 
-    <!-- Customize a sweet Materialize Navbar -->
+    <!--
       <nav>
         <div class="nav-wrapper light-blue">
           <a href="#" class="brand-logo left">Kevin Farmer</a>
@@ -22,6 +22,7 @@
           </ul>
         </div>
       </nav>
+    -->
 
       <!-- parallax code from: http://materializecss.com/parallax.html -->
     <div class="parallax-container">
@@ -31,9 +32,10 @@
 
     <div class='section-white'>
       <br />
-      <h1 class="header center orange-text">Hi CS52!</h1>
+      <h1 class="header center orange-text">Kevin Farmer</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Let's spruce up this landing page in 30 minutes.</h5>
+        <h5 class="header col s12 light">I'm an aspiring software developer at Dartmouth College, <br>
+          hoping to gain more experience outside the classroom.</h5>
       </div>
       <br /><br />
 
@@ -41,27 +43,42 @@
         <div class="section">
           <div class="row">
 
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h5 class="center">Change the headings.</h5>
-                <p class="light">Just follow the tutorial! It won't take too long, and you'll get a new logo.</p>
-                <a class="btn waves-effect waves-light">Button 1</a>
+            <div class="col s12 m3">
+              <div class="icon-block center-align">
+                <div data-mh="my-group">
+                  <h5 class="center">Work Experience</h5>
+                  <p class="light center">
+                    Most of my work experience has been in IT-related settings,
+                    which has given me experience in breaking down technical issues for non-technical people.
+                  </p>
+                </div>
+                <a class="btn waves-effect waves-light cyan">Details</a>
               </div>
             </div>
 
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h5 class="center">Add some effects.</h5>
-                <p class="light">Make some buttons look cool! And by that I mean Button 1, Button 2, and Button 3.</p>
-                <a class="btn-floating waves-effect waves-light cyan"><i class="material-icons">add</i></a>
+            <div class="col s12 m3">
+              <div class="icon-block center-align">
+                <div data-mh="my-group">
+                  <h5 class="center">Education</h5>
+                  <p class="light center">
+                    I have completed the majority of my Computer Science major here at Dartmouth,
+                    giving me exposure to and knowledge of a wide variety of subjects.
+                  </p>
+                </div>
+                <a class="btn waves-effect waves-light">Classes</a>
               </div>
             </div>
 
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h5 class="center">Add a modal.</h5>
-                <p class="light">Materialize makes it easy to do so, don't worry.</p>
-                <a href="#getStartedModal" class="btn btn-floating pulse"><i class="material-icons">cloud</i></a>
+            <div class="col s12 m3">
+              <div class="icon-block center-align">
+                <div data-mh="my-group">
+                  <h5 class="center">Past Projects</h5>
+                  <p class="light center">
+                    Here are a few examples of projects that I've completed for past classes,
+                    such Artificial Intelligence, Software Design and Implementation, and Operating Systems.
+                  </p>
+                </div>
+                <a href="#getStartedModal" class="btn waves-effect green">Examples</a>
                 <!-- get example info from: http://materializecss.com/modals.html -->
                 <!-- code adapted from: http://materializecss.com/modals.html -->
                 <div id='getStartedModal' class='modal'>
@@ -70,12 +87,25 @@
                     <p>Learn how to use Materialize.</p>
                   </div>
                   <div class='modal-footer'>
-                    <a href="#!" class='modal-action modal-close btn-flat cyan'>I'm ready!</a>
+                    <a href="#!" class='modal-action modal-close btn-flat red'>I'm ready!</a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+
+            <div class="col s12 m3">
+              <div class="icon-block center-align">
+                <div data-mh="my-group">
+                  <h5 class="center">Technical Skills</h5>
+                  <p class="light center">
+                    Throughout my classes and personal experience,
+                    I have gained exposure to several different software languages as well as to a variety of computational topics.
+                  </p>
+                </div>
+                <a class="btn waves-effect waves-light light-green">Skills</a>
+              </div>
+            </div>
+          </div> <!-- End row -->
 
         </div>
       </div>
@@ -83,7 +113,7 @@
 
     <!-- parallax code from: http://materializecss.com/parallax.html -->
     <div class="parallax-container">
-      <div class='parallax'><img src='img/p2.jpg'></div>
+      <div class='parallax'><img src='img/mansfield-winter.jpg'></div>
     </div>
 
     <footer class="page-footer orange">
@@ -94,20 +124,9 @@
       </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script src='js/init.js'></script>
+    <script src="js/jquery.matchHeight.js" type="text/javascript"></script>
   </body>
 </html>
