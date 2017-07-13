@@ -1,6 +1,22 @@
 
+html, body {
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+
 .btn {
   margin-top: 8px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  font-size: 28px;
 }
 
 .section-white {
@@ -23,20 +39,45 @@
 }
 
 .modal {
-  width: 80%;
-  max-height: 80%;
+  top: 5% !important;
+  width: 90%;
+  max-height: 90%;
+  height: 90%;
 }
 
   .modal h4 {
     text-decoration: underline;
   }
 
+.modal-content {
+  padding-bottom: 0px !important;
+}
+
+.section-link {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.section-link:hover {
+  background-color: rgb(210, 210, 210);
+
+}
+
 #class-list {
   text-align: left;
-  width: 400px;
+  width: 550px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(200, 200, 200);
 }
   #class-list > li {
+    font-size: 18px;
     margin-bottom: 5px;
+  }
+  #class-list > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }

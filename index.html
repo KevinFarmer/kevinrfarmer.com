@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://use.fontawesome.com/7ef0f2be63.js"></script>
   </head>
 
   <body>
@@ -45,17 +46,20 @@
 
             <div class="col s12 m3">
               <div class="icon-block center-align">
-                <div data-mh="my-group">
-                  <h5 class="center">Work Experience</h5>
-                  <p class="light center">
-                    Most of my work experience has been in IT-related settings,
-                    which has given me experience in breaking down technical issues for non-technical people.
-                  </p>
-                </div>
-                <a href="#workModal" class="btn waves-effect waves-light cyan">Details</a>
+                <a href="#workModal" class="section-link">
+                  <div data-mh="my-group">
+                    <h5 class="center">Work Experience</h5>
+                    <p class="light center">
+                      Most of my work experience has been in IT-related settings,
+                      which has given me experience in breaking down technical issues for non-technical people.
+                    </p>
+                  </div>
+                </a>
+                <!-- <a href="#workModal" class="btn waves-effect waves-light cyan">Details</a> -->
                 <!-- get example info from: http://materializecss.com/modals.html -->
                 <!-- code adapted from: http://materializecss.com/modals.html -->
                 <div id='workModal' class='modal'>
+                  <a class='modal-action modal-close close-button'><i class="fa fa-times" aria-hidden="true"></i></a>
                   <div class='modal-content'>
                     <h4>Previous Employment</h4>
                     <div class="employer">
@@ -90,24 +94,24 @@
                     </div>
 
                   </div>
-                  <div class='modal-footer'>
-                    <a class='modal-action modal-close btn-flat red'>Close</a>
-                  </div>
                 </div>
               </div>
             </div>
 
             <div class="col s12 m3">
               <div class="icon-block center-align">
-                <div data-mh="my-group">
-                  <h5 class="center">Education</h5>
-                  <p class="light center">
-                    I have completed the majority of my Computer Science major here at Dartmouth,
-                    giving me exposure to and knowledge of a wide variety of subjects.
-                  </p>
-                </div>
-                <a href="#classesModal" class="btn waves-effect waves-light">Classes</a>
+                <a href="#classesModal" class="section-link">
+                  <div data-mh="my-group">
+                    <h5 class="center">Education</h5>
+                    <p class="light center">
+                      I have completed the majority of my Computer Science major here at Dartmouth,
+                      giving me exposure to and knowledge of a wide variety of subjects.
+                    </p>
+                  </div>
+                </a>
+                <!-- <a href="#classesModal" class="btn waves-effect waves-light">Classes</a> -->
                 <div id='classesModal' class='modal'>
+                  <a class='modal-action modal-close close-button'><i class="fa fa-times" aria-hidden="true"></i></a>
                   <div class='modal-content'>
                     <h4>Completed Coursework</h4>
                     <p>Given in order taken:</p>
@@ -126,55 +130,49 @@
 
                     </ul>
                   </div>
-                  <div class='modal-footer'>
-                    <a class='modal-action modal-close btn-flat red'>Close</a>
-                  </div>
                 </div>
               </div>
             </div>
 
             <div class="col s12 m3">
               <div class="icon-block center-align">
-                <div data-mh="my-group">
-                  <h5 class="center">Past Projects</h5>
-                  <p class="light center">
-                    Here are a few examples of projects that I've completed for past classes,
-                    such Artificial Intelligence, Software Design and Implementation, and Operating Systems.
-                  </p>
-                </div>
-                <a href="#projectsModal" class="btn waves-effect green">Examples</a>
+                <a href="#projectsModal" class="section-link">
+                  <div data-mh="my-group">
+                    <h5 class="center">Past Projects</h5>
+                    <p class="light center">
+                      Here are a few examples of projects that I've completed for past classes,
+                      such Artificial Intelligence, Software Design and Implementation, and Operating Systems.
+                    </p>
+                  </div>
+                </a>
+                <!-- <a href="#projectsModal" class="btn waves-effect green">Examples</a> -->
                 <div id='projectsModal' class='modal'>
+                  <a class='modal-action modal-close close-button'><i class="fa fa-times" aria-hidden="true"></i></a>
                   <div class='modal-content'>
                     <h4>Projects of Interest</h4>
                     <p>Learn how to use Materialize.</p>
                   </div>
-                  <div class='modal-footer'>
-                    <a class='modal-action modal-close btn-flat red'>Close</a>
-                  </div>
                 </div>
               </div>
             </div>
 
             <div class="col s12 m3">
               <div class="icon-block center-align">
-                <div data-mh="my-group">
-                  <h5 class="center">Technical Skills</h5>
-                  <p class="light center">
-                    Throughout my classes and personal experience,
-                    I have gained exposure to several different software languages as well as to a variety of computational topics.
-                  </p>
-                </div>
-                <a class=""></a>
-                <a href="#skillsModal" class="btn waves-effect waves-light light-green">Skills</a>
-                <!-- get example info from: http://materializecss.com/modals.html -->
-                <!-- code adapted from: http://materializecss.com/modals.html -->
+                <a href="#skillsModal" class="section-link">
+                  <div data-mh="my-group">
+                    <h5 class="center">Technical Skills</h5>
+                    <p class="light center">
+                      Throughout my classes and personal experience,
+                      I have gained exposure to several different software languages as well as to a variety of computational topics.
+                    </p>
+                  </div>
+                </a>
+                <!-- <a href="#skillsModal" class="btn waves-effect waves-light light-green">Skills</a> -->
                 <div id='skillsModal' class='modal'>
+                  <a class='modal-action modal-close close-button'><i class="fa fa-times" aria-hidden="true"></i></a>
                   <div class='modal-content'>
                     <h4>Technical Skills</h4>
                     <p>Learn how to use Materialize.</p>
-                  </div>
-                  <div class='modal-footer'>
-                    <a class='modal-action modal-close btn-flat red'>Close</a>
                   </div>
                 </div>
               </div>
